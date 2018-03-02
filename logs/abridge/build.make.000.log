@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target abridge[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/abridge.dir/src/abridge.cpp.o[0m
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/abridge/src/abridge.cpp:1:21:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+compilation terminated.
+CMakeFiles/abridge.dir/build.make:62: recipe for target 'CMakeFiles/abridge.dir/src/abridge.cpp.o' failed
+make[2]: *** [CMakeFiles/abridge.dir/src/abridge.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/abridge.dir/all' failed
+make[1]: *** [CMakeFiles/abridge.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

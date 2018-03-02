@@ -1,0 +1,17 @@
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::GripperPlugin::attach()[m[K’:
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp:638:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KSetAttribute[m[K’
+   targetAttachJoint->SetAttribute("erp", 0, erp);
+[01;32m[K                      ^[m[K
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp:639:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KSetAttribute[m[K’
+   targetAttachJoint->SetAttribute("cfm", 0, cfm);
+[01;32m[K                      ^[m[K
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp:640:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KSetAttribute[m[K’
+   targetAttachJoint->SetAttribute("stop_erp", 0, erp);
+[01;32m[K                      ^[m[K
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/gazebo_plugins/src/GripperPlugin/GripperPlugin.cpp:641:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KSetAttribute[m[K’
+   targetAttachJoint->SetAttribute("stop_cfm", 0, cfm);
+[01;32m[K                      ^[m[K
+make[2]: *** [CMakeFiles/gazebo_plugins_gripper.dir/src/GripperPlugin/GripperPlugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_plugins_gripper.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

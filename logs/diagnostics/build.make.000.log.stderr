@@ -1,0 +1,7 @@
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/diagnostics/src/Diagnostics.cpp:[m[K In constructor ‘[01m[KDiagnostics::Diagnostics(std::__cxx11::string)[m[K’:
+[01m[K/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/src/diagnostics/src/Diagnostics.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetupClient[m[K’ is not a member of ‘[01m[Kgazebo[m[K’
+     gazebo::setupClient(argc, argv);
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/diagnostics.dir/src/Diagnostics.cpp.o] Error 1
+make[1]: *** [CMakeFiles/diagnostics.dir/all] Error 2
+make: *** [all] Error 2

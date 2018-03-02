@@ -1,0 +1,8 @@
+prefix=/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/install
+
+Name: gazebo_plugins
+Description: Description of gazebo_plugins
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jschlindwein/Desktop/OLD UBUNTU FILES/CNM_TEAM_CODE/install/lib 
+Requires: roscpp gazebo_ros
